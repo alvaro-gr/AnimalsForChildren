@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">AnimalsforChildren</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="advina">Adivina</string>
+    <string name="tituloDialog">Ordena las letras y escribe el nombre del animal</string>
+    <string name="vInfo">Animales Vertebrados</string>
+    <string name="ivInfo">Animales Invertebrados</string>
+    <string name="tituloPrincipal">Animals for Children</string>
+    <string name="tituloPrincipal2">Comprueba si sabes el nombre de los animales más comunes</string>
+    <string name="tipoAnimal">Tipo de Animal</string>
+    <string name="incorrecto">Incorrecto</string>
+
+    <style name="Theme_Dialog_Translucent" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <color name="transparent">#00000000</color>
+
+    <string-array name="opciones_V">
+        <item>leeantef</item>
+        <item>atog</item>
+        <item>eónl</item>
+        <item>mnoo</item>
+        <item>rrope</item>
+        <item>cava</item>
+        <item>balloca</item>
+        <item>ragifa</item>
+
+        <item>gliuáa</item>
+        <item>úohb</item>
+        <item>nallagi</item>
+        <item>orlo</item>
+        <item>aalpmo</item>
+        <item>paot</item>
+        <item>aopv</item>
+        <item>guipinno</item>
+
+        <item>aútn</item>
+        <item>allenab</item>
+        <item>lednfí</item>
+        <item>cafo</item>
+        <item>ulopp</item>
+        <item>nara</item>
+        <item>posa</item>
+        <item>ótburin</item>
+
+        <item>mancai</item>
+        <item>léoncaam</item>
+        <item>dricoocol</item>
+        <item>diisaurono</item>
+        <item>nagui</item>
+        <item>latogar</item>
+        <item>ntesereip</item>
+        <item>gatuort</item>
+
+    </string-array>
+
+    <string-array name="opciones2">
+
+        <item>aabej</item>
+        <item>meaajl</item>
+        <item>aaarñ</item>
+        <item>jocnaerg</item>
+        <item>olcaarc</item>
+        <item>iemcépis</item>
+        <item>anlatgos</item>
+        <item>sgonua</item>
+        <item>gaorhim</item>
+        <item>posarmai</item>
+        <item>iiaarmuqt</item>
+        <item>mnotseaaslt</item>
+
+    </string-array>
+
+    <string name="texto1Vertebrados">
+        Los animales vertebrados son animales que poseen un esqueleto. Es decir, tienen
+        huesos.
+    </string>
+
+    <string name="texto2Vertebrados">
+        Todos estos animales poseen 3 partes del cuerpo: Cabeza, Tronco y las Extremidades.
+    </string>
+
+    <string name="texto3Vertebrados">
+        Se clasifican en 5 subgrupos: Mamíferos, Aves, Reptiles, Anfibios y Peces.
+    </string>
+
+    <string name="texto4Vertebrados">
+        Según el animal, utiliza pulmones o branquias para respirar.
+    </string>
+
+
+
+
+
+    <string name="texto1IVertebrados">
+        Los animales invertebrados forman el grupo más numeroso de animales en nuestro planeta,
+        y aunque es muy característico que muchos de ellos estén cubiertos o protegidos por algún tipo
+        de cubierta dura, lo más importante es que carecen de columna vertebral.
+    </string>
+
+    <string name="texto2IVertebrados">
+        Debido a la variedad de especies, podemos encontrar muchos cuerpos diferentes.
+    </string>
+
+    <string name="texto3IVertebrados">
+        Los animales vertebrados provienen de la evolución de los invertebrados.
+    </string>
+
+    <string name="texto4IVertebrados">
+        Estos animales no tienen un habitat especifico. Lo podemos encontrar en el aire, la tierra o el mar.
+    </string>
+
+    <string name="ayuda">
+        Diviértete construyendo nombres de animales
+    </string>
+
+      <string name="ayuda2">
+        Esta aplicación es para uso educativo. Recomendada para niños de 6-8 años.
+    </string>
+
+
+
+</resources>

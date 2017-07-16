@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/letras"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/solucion" />
+
+    <Button
+        android:text="@string/cancel"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/aceptar"
+        android:layout_toEndOf="@+id/letras"
+        android:id="@+id/cancelar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:background="@drawable/boton"
+        android:textColor="@color/blanco" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cancelar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView3"
+        android:textColor="@color/blanco" />
+
+    <TextView
+        android:text="@string/tituloDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogTitulo"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/letras"
+        android:textSize="20sp"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/dialogTitulo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/aceptar"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/aceptar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:background="@drawable/boton"
+        android:textColor="@color/blanco"
+        android:layout_below="@+id/solucion"
+        android:layout_toStartOf="@+id/letras"
+        android:layout_marginTop="11dp" />
+
+</RelativeLayout>
